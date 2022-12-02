@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .doc_h1 {
+    @apply text-3xl font-bold tracking-wider uppercase
+    }
+
+    .doc_h4 {
+    @apply text-[#caa969] tracking-wider uppercase font-light
+    }
+
+    .doc_h5 {
+    @apply text-xs font-semibold tracking-wider text-[#caa969] uppercase animate-pulse
+    }
+}
