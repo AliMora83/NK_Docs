@@ -7,7 +7,7 @@ export default function Home({}: Props) {
     <div>
     <section className="dark:bg-[#080a0b] dark:text-gray-100">
         <div className="container mx-auto h-screen flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
-            <h1 className="text-4xl font-bold leading-none sm:text-2xl uppercase">Documentation
+            <h1 className="doc_h1">Documentation
             </h1>
               <h2 className="dark:text-[#caa969]">NAMKA CRYPTO DRAW</h2>
             <p className="px-8 mt-8 mb-12 text-sm">Web3 Crypto Draw Platform for testing</p>
