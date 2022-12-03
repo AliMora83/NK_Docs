@@ -29,11 +29,11 @@
         }
     
     h3 {
-        @apply uppercase text-[#6a6a6c] text-base font-mont font-medium
+        @apply uppercase text-[#6a6a6c] text-base font-mont font-semibold pb-2
         }
 
     h4 {
-        @apply uppercase text-[#caa969] text-sm font-mont font-medium
+        @apply uppercase text-[#caa969] text-sm font-mont font-semibold
         }
 
     h5 {
@@ -48,17 +48,28 @@
         @apply bg-[#080a0b] text-[#caa969] p-4 flex-1 rounded-md text-sm font-mont
     }
 
-    .doc_p {
+    p {
     @apply text-sm text-gray-500 font-sans pl-3
     }
 
-    ol,
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+    li {
+    @apply text-xs text-gray-400
     }
 
+    hr {
+    @apply my-5 w-4/5
+    }
 
+    .dark {
+    @apply text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2
+    }
+
+    .light {
+    @apply text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 
+    }
+
+    .gradient {
+    @apply text-white bg-gradient-to-br from-[#264d62] to-[#080a0b] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 
+    }
 
 }

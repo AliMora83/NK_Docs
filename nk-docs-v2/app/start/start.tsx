@@ -1,6 +1,7 @@
 import React from 'react'
 import BankCard from './bankCard'
 import FoodCard from './foodCard'
+import IndieCard from './indieCard'
 import RetailCard from './retailCard'
 import Table01 from './table'
 // import Stats from './stats'
@@ -34,7 +35,7 @@ function Started({}: Props) {
                   <Table01 />
                   <br />
                   <div className='flex flex-row items-center'>
-                  <BankCard />
+                  <IndieCard />
                      <div className='m-10 p-10 h-64 w-80 border-gray-100 border rounded-2xl hover:bg-slate-50 hover:shadow duration-150 ease-out'>
                         <div className='space-y-1'>
                            <h4>Use Case Scenario</h4>
@@ -75,7 +76,7 @@ function Started({}: Props) {
                   The UX style guide is a document that includes the design patterns for the future product. Rem reprehenderit ullam placeat quis deserunt eligendi, nemo ipsa eaque natus tempore alias, corrupti, quas ea?  odio vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
                   <br />
                   <p className='doc_p'>The most common documents produced at these stages are:</p>
-                  <ul>
+                  <ul className='list-disc list-inside space-y-2 mt-2 pl-5'>
                      <li>Site maps</li>
                      <li>Site maps</li>
                      <li>Site maps</li>

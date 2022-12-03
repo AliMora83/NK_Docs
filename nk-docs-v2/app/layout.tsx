@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import Footer from './footer'
 import Navmenu from './navmenu'
 
 export default function RootLayout({
@@ -11,7 +12,9 @@ export default function RootLayout({
       <head />
       <body>
         <Navmenu />
-        {children}</body>
+        {children}
+        <Footer />
+        </body>
     </html>
   )
 }
