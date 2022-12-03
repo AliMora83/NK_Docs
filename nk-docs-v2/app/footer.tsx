@@ -1,9 +1,8 @@
 export default function Footer() {
   return (
-    <>
-
-<footer className="p-4 w-3/5 align-middle rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 bg-gray-800 content-center">
-    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
+    <div className="my-5 flex justify-center w-4xl">
+<footer className="p-4 align-middle rounded-lg shadow-md md:flex md:items-center md:justify-between md:p-6 bg-gray-800 content-center">
+    <span className="text-sm pr-10 text-gray-500 sm:text-center dark:text-gray-400"> All Rights Reserved © 2022 <a href="openmindi.co.za" className="hover:underline">NAMKA™</a>
     </span>
     <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
@@ -21,6 +20,6 @@ export default function Footer() {
     </ul>
 </footer>
 
-    </>
+    </div>
   )
 }

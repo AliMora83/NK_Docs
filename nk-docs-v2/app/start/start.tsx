@@ -12,7 +12,7 @@ type Props = {}
 function Started({}: Props) {
   return (
     <div className='mb-10'>
-        <div className="text-gray-700 text-left max-w-md justify-center md:max-w-2xl lg:max-w-4xl mx-auto space-y-2" id='what'>
+        <div className="text-gray-700 text-left max-w-md justify-center md:max-w-4xl mx-auto space-y-2" id='what'>
 
                   <p className='mb-2 text-sm pt-16 text-[#caa969] font-light tracking-wider uppercase '>
                    <span className='font-bold text-[#caa969]'>01.</span> Start here</p>
