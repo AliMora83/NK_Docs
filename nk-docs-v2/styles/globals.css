@@ -1,17 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
+
     .doc_h1 {
-    @apply text-3xl font-bold tracking-wider uppercase
+    @apply text-[#eaeaea] text-3xl font-bold tracking-wider uppercase font-mont
     }
 
     .doc_h4 {
-    @apply text-[#caa969] tracking-wider uppercase font-light
+    @apply text-[#caa969] tracking-wider uppercase font-light font-mont
     }
 
     .doc_h5 {
-    @apply text-xs font-semibold tracking-wider text-[#caa969] uppercase animate-pulse
+    @apply text-xs font-semibold tracking-wider text-[#caa969] uppercase animate-pulse font-mont
     }
+
+    h1 {
+        @apply uppercase text-[#080a0b] text-2xl font-mont font-semibold
+        }
+
+    h2 {
+        @apply uppercase text-[#6a6a6c] text-lg font-mont font-semibold
+        }
+    
+    h3 {
+        @apply uppercase text-[#6a6a6c] text-base font-mont font-medium
+        }
+
+    h4 {
+        @apply uppercase text-[#caa969] text-sm font-mont font-medium
+        }
+
+    h5 {
+        @apply uppercase text-[#080a0b] text-xs font-mont font-bold
+        }
+
+    .a {
+        @apply hover:text-[#caa969] font-mont text-xs
+    } 
+
+    .stats {
+        @apply bg-[#080a0b] text-[#caa969] p-4 flex-1 rounded-md text-sm font-mont
+    }
+
+    .doc_p {
+    @apply text-sm text-gray-500 font-sans pl-3
+    }
+
+    ol,
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
 }

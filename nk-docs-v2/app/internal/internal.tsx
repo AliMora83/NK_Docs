@@ -25,8 +25,38 @@ function Internals({}: Props) {
                   </h4>
                   <p>
                   Lorem contact details and where to look for more information or assistance. Implement localization. People like getting information in their own language. So, take care of your global audience and consider using location data to adapt your content. Localization can also mean converting units of measurement, currencies, date and address formats, and so on. nemo ipsa eaque natus tempore alias, corrupti, quas ea? Itaque, vel optio nobis enim a dolor, harum aliquam fuga labore similique dolorem nesciunt, molestias ratione repudiandae dignissimos.</p>
+                  <br />
+
+                  <p className='mb-2 text-sm pt-16 text-[#caa969] font-light tracking-wider uppercase '>
+                   <span className='font-bold text-[#caa969]'>01.</span>  Start here - Header number
+                  </p>
+              
+                  <h1 className=''>
+                     Actual Header
+                  </h1>
+
+                  <p className='doc_p w-4/5'>
+                     It is a Lottery Draw developed on the Blockchain. You may buy up to 10 tickets to enter the draw. One random ticket will be notified of winning! They may withdraw immediately. It is a game whose victory or failure is lead by probability.
+                  </p>
+
+              
+
+                  <br/>
+                  <div className='space-y-2'>
+                  <h1>Heading Style h1</h1>
+                  <h2>Heading Style h2</h2>
+                  <h3>Heading Style h3</h3>
+                  <h4>Heading Style h4</h4>
+                  <h5>Heading Style h5</h5>
                   </div>
-                  
+                  <br />
+                  <hr className='my-5 w-4/5'/>
+                  <h4>Heading Style h4</h4>
+                  <p className='doc_p text-xs w-3/5'>
+                     It is a Lottery Draw developed on the Blockchain. You may buy up to 10 tickets to enter the draw. One random ticket will be notified of winning! They may withdraw immediately. It is a game whose victory or failure is lead by probability.
+                  </p>
+
+             </div>       
     </div>
   )
 }
