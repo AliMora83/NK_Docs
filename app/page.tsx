@@ -5,12 +5,14 @@ type Props = {}
 
 export default function Home({}: Props) {
   return (
-    <div>
+    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0
+    scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]">
+
             <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         
         {/* <BackgroundCircles /> */}
             <img className='relative rounded-full h-32 w-32 mx-auto object-cover' 
-              src="/ali_mora.png"
+              src="/favicon.ico"
               alt="" />
 
         <div className='z-20'>
@@ -20,10 +22,10 @@ export default function Home({}: Props) {
               full stack <span className='text-white animate-pulse'>web3</span> developer</h2>
         
             <div className='pt-5'>
+                <Link href="#projects"><button className='heroButton'>Docs</button></Link>
                 <Link href="#about"><button className='heroButton'>About</button></Link>
-                <Link href="#clients"><button className='heroButton'>Clients</button></Link>
+                <Link href="#clients"><button className='heroButton'>Contact</button></Link>
                 <Link href="#skills"><button className='heroButton'>Skills</button></Link>
-                <Link href="#projects"><button className='heroButton'>Projects</button></Link>
                 
             </div>
             </div>
