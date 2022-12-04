@@ -74,7 +74,7 @@
 
     .heroButton {
         @apply px-4 py-2 border border-[#242424] rounded-full uppercase text-xs
-        tracking-widest text-gray-500 transition-all hover:border-[#f7ab0a]
+        tracking-widest text-gray-500 transition-all hover:border-[#caa969]
         hover:text-gray-200 hover:scale-90
     }
     
