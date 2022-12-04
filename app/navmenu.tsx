@@ -8,6 +8,9 @@ export default function Navmenu({}: Props) {
     <div>
         <aside className="h-full p-6 sm:w-60 dark:bg-[#080a0b] dark:text-gray-100 fixed">
             <nav className="space-y-8 text-sm pt-5">
+            <a href="/"> <img className='h-16' 
+              src="/favicon.ico"
+              alt="namka icon" /></a>
               <div className="space-y-2">
                 <Link href="start">
                 <h2 className="text-sm font-semibold tracking-widest uppercase dark:text-gray-400">Getting Started</h2></Link>
