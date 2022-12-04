@@ -1,7 +1,4 @@
 {
-  "/corp/page": "app/corp/page.js",
-  "/internal/page": "app/internal/page.js",
   "/page": "app/page.js",
-  "/start/page": "app/start/page.js",
-  "/user/page": "app/user/page.js"
+  "/start/page": "app/start/page.js"
 }
