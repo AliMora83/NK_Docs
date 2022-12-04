@@ -16,7 +16,7 @@ export default function Home({}: Props) {
 
         <div className='z-20'>
 
-          <h1 className="doc_h1 tracking-[4px]">Documentation</h1>
+          <h1 className="doc_h1 tracking-[4px]">Documentation x</h1>
 
           <h2 className='doc_h4 text-base'>
               Namka <span className='text-white animate-pulse'>crypto</span> draw</h2>
