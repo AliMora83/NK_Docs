@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"/Users/alikora/ThirdWeb/NK/Docs/app/page":["/Users/alikora/ThirdWeb/NK/Docs/styles/globals.css"]},"/Users/alikora/ThirdWeb/NK/Docs/app/layout.tsx":["/Users/alikora/ThirdWeb/NK/Docs/styles/globals.css"]}
