@@ -842,6 +842,9 @@ hr{
 .h-full{
   height: 100%;
 }
+.h-16{
+  height: 4rem;
+}
 .h-screen{
   height: 100vh;
 }
@@ -856,12 +859,6 @@ hr{
 }
 .h-64{
   height: 16rem;
-}
-.h-10{
-  height: 2.5rem;
-}
-.h-16{
-  height: 4rem;
 }
 .w-full{
   width: 100%;
